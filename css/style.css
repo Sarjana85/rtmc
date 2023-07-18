@@ -76,8 +76,10 @@ header h1 {
 	padding: 1rem;
 }
 a.navbar-brand i.fas {
-    font-size: 35px;
+    font-size: 50px;
     color: #fff;
+    position: relative;
+    bottom: -18px;
 }
 
 .navbar-light .navbar-brand {
@@ -90,6 +92,7 @@ a.navbar-brand i.fas {
     letter-spacing: 1px;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
 	position: relative;
+    bottom: 15px;
 }
 a.navbar-brand span {
     color: #eee;
@@ -98,8 +101,8 @@ a.navbar-brand span {
     text-transform: capitalize;
     font-weight: normal;
      letter-spacing: 1px;
-    left: 35%;
-    bottom: -30%;
+    left: 38%;
+    bottom: -28%;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
@@ -136,6 +139,7 @@ header h1 a span {
     color: #b01ba5;
     background: transparent;
     border-bottom: 2px dotted;
+    
 }
 .dropdown-item.active, .dropdown-item:active {
     color: #b01ba5;
